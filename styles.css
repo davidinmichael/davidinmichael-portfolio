@@ -1,0 +1,22 @@
+:root {
+    --dark: #000;
+    --white: white;
+    --accent: #9A0680;
+    --bg: #EEEEEE;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+}
