@@ -3,6 +3,7 @@
     --white: white;
     --accent: #9A0680;
     --bg: #eeeeeeb7;
+    --card-bg: #eeeeee49;
 }
 
 *, html, body {
@@ -192,4 +193,76 @@ a {
         background-color: var(--bg);
         display: none;
     }
+}
+
+.services {
+    display: grid;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.services > h3 {
+    font-size: 3rem;
+}
+
+.service-cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.service {
+    background-color: var(--card-bg);
+    max-width: 30rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.service h3, .service p {
+    font-size: 1.5rem;
+
+}
+
+.icon {
+    color: var(--accent);
+    background-color: var(--white);
+    width: 3rem;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .service-cards {
+        flex-direction: column;
+    }
+    
+}
+
+.footer {
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    margin: 5rem 0;
+    background-color: var(--card-bg);
+    padding: 2rem;
+}
+
+.footer-name {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.footer > p {
+    font-size: 1.5rem;
+    text-align: center;
 }
