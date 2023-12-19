@@ -74,10 +74,10 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 15rem;
-    gap: 2rem;
-    padding: 2rem;
+    /* gap: 2rem; */
+    /* padding: 2rem; */
 }
 
 .details {
