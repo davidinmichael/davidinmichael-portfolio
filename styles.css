@@ -161,6 +161,7 @@ a {
 
 .about-content {
     width: 50%;
+    display: grid;
 }
 
 .about-content h3 {
@@ -175,6 +176,13 @@ a {
 .about-content p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.about-content > .btn {
+    display: inline-block;
+    width: 10rem;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 600px) {
@@ -218,9 +226,9 @@ a {
     background-color: var(--card-bg);
     max-width: 30rem;
     border-radius: 1rem;
-    padding: 1rem 2rem;
+    padding: 2rem;
     display: grid;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .service h3, .service p {
