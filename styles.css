@@ -90,6 +90,11 @@ a {
     gap: 8rem;
 }
 
+.header-info {
+    display: grid;
+    gap: 5rem;
+}
+
 .header-text > p {
     font-size: 1.5rem;
 }
@@ -103,7 +108,7 @@ a {
 
 .contacts {
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     gap: 2rem;
 }
 
@@ -117,6 +122,7 @@ a {
 
 .header-img {
     width: 30%;
+    border-radius: 1rem 2rem;
     /* background-color: var(--bg); */
     /* height: 100%; */
 }
@@ -132,6 +138,7 @@ a {
         min-width: 80%;
         background-color: var(--bg);
         height: 30rem;
+        margin-top: 5rem;
     }
 
     .details {
